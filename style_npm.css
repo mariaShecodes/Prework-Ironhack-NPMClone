@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: #c12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.top-left {
+    padding-left: 10px;
+    display: inline-block;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 5px 20px 0 0;
+}
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.search-bar {
+    color: white;
+    background-color: rgb(32, 101, 136);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.npm-logo {
+    padding: 12px 10px 10px 20px;
+}
+.text-bar {
+    background-color: rgb(31, 82, 111);
+    border: solid grey 0.2px;
+    width: 950px;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.button-bar {
+    background-color: rgb(31, 82, 111);
+    border: solid grey 0.2px;
+    margin-left: -5px;
+    padding: 12px 11px 11px 11px;
+}
+.sign-up {
+    text-decoration-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: csenter;
+    list-style: none; 
+}
+.sign-up a {
+    color: rgba(255,255,255,0.8);
+    text-decoration-line: none;
+    padding-right: 8px;
+}
+.bear {
+    padding-right: 30px;
+}
+.amazing-things {
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(city-scape.svg);
+    background-color: rgb(32, 101, 136);
+    background-size: cover;
+    height: 450px;
+}
+.title-one {
+    font-size: 46px;
+    color: white;
+    padding-top: 130px;
+}
+.paragraph-one {
+    width: 600px;
+    text-align: left;
+    font-size: 18px;
+    color:white;   
+}
+.margin {
+    margin-left: 250px;
+    margin-top: 0;
+}
+.first-button {
+    background-color: rgb(240, 146, 51);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 14px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.section-one {
+    margin: 0 auto;
+    background-color: rgb(39, 53, 71);
+    color: white;
+    height: 420px;
+    display: flex;
+}
+.image-section-one {
+    float: left;
+    width: 400px;
+    margin: 60px 0px 70px 210px;
+}
+.text-section-one {
+    float: right;
+    margin: 55px 0px 20px 50px;
+}
+.npm-orgs {
+    width: 300px;
+    padding-bottom: 20px;
+}
+.interline-li {
+    line-height: 35px;
+}
+.button-section-one {
+    background-color: rgb(203, 56, 55);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 14px;
+    font-size: 18px;
+}
+.anchor-section-one {
+    color: white;
+    text-decoration: none;
+    margin-top: -20px;
+}
+.second-section {
+    position: relative;
+    background-image: url(forklift.svg);
+    background-size: cover;
+    height: 420px;
+    color: white;
+}
+.second-text {
+    position: absolute;
+    padding-left: 210px;
+    padding-top: 110px;
+    width: 360px;
+}
+.button-section-second {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 14px;
+    font-size: 18px;
+}
+
+
+.header-section-third {
+    text-align: center;
+    padding: 30px 0;
+    background-color: white;
+}
+.header-section-third heading {
+    color: rgb(83, 88, 98);
+}
+.header-section-third p {
+    color: rgb(135, 145, 156);
+}
+.options-section-third a {
+    color: rgb(208, 74, 73);
+}
+.options-section-third {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.icon-section-third {
+    width: 300px;
+}
+.space {
+    padding: 0 70px;
+}
+
+@media (min-width: 200px) and (max-width: 620px) {
+    nav {
+        padding-bottom: 40px;
+    }
+    .top-links li {
+        font-size: 13px;
+    }
+    .search-bar {
+        display: block;
+    }
+    .text-bar {
+        justify-content: center;
+        width: 80%;
+    }
+    .sign-up {
+        justify-content: flex-end;
+    }
+    .amazing-things {
+        margin-top: -36px;
+    }
+    .title-one {
+        font-size: 28px;
+        padding-top: 35px;
+        margin: 35px 30px;
+    }
+    .paragraph-one {
+        width: 400px;
+        padding: 0;
+        margin: 35px 30px;
+    }
+    .first-button {
+        margin: 10px 30px;
+        align-items: center;
+    }
+    .image-section-one {
+        display: none;
+    }
+    .text-section-one {
+        margin: 10px 10px 10px 25px;
+    }
+    .second-text {
+        padding-left: 70px;
+        padding-top: 100px;
+        width: 180px;
+    }
+    .header-section-third p {
+        padding: 0 10px;
+    }
+    .icon-section-third img {
+        width: 80%;
+    }
+    .icon-section-third p {
+        padding: 0 10px;
+    }
+}
+@media (min-width: 621px) and (max-width:899px) {
+    nav {
+        padding-bottom: 40px;
+    }
+    .top-links li {
+        font-size: 14px;
+    }
+    .search-bar {
+        display: block;
+    }
+    .text-bar {
+        justify-content: center;
+        width: 85%;
+    }
+    .sign-up {
+        justify-content: flex-end;
+    }
+    .amazing-things {
+        margin-top: -36px;
+    }
+    .title-one {
+        font-size: 28px;
+        padding-top: 35px;
+        margin: 35px 30px;
+    }
+    .paragraph-one {
+        width: 400px;
+        padding: 0;
+        margin: 35px 30px;
+    }
+    .first-button {
+        margin: 10px 30px;
+        align-items: center;
+    } 
+    .image-section-one {
+        width: 60%;
+        margin-left: 40px;
+    }
+    .text-section-one {
+        margin: 10px 25px;
+        font-size: 16px;
+    }   
+    .interline-li {
+        line-height: 30px;
+    }
+    .second-text {
+        padding-left: 70px;
+        padding-top: 100px;
+        width: 180px;
+    }
+    .header-section-third p {
+        padding: 0 10px;
+    }
+    .icon-section-third p {
+        padding: 0 10px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+    .amazing-things {
+        margin-top: -16px;
+    }
+    .search-bar {
+        display: block;
+    }
+    .text-bar {
+        justify-content: center;
+        width: 90%;
+    }
+    .sign-up {
+        justify-content: flex-end;
+    }
+    .title-one {
+        padding-top: 45px;
+        margin-left: 140px;
+    }
+    .paragraph-one {
+        width: 400px;
+        margin-left: 140px;
+    }
+    .first-button {
+        margin-left: 140px;
+    }
+    .image-section-one {
+        width: 60%;
+        margin: 70px;
+    }
+    .text-section-one {
+        margin: 10px 25px;
+        font-size: 16px;
+    }
+    .interline-li {
+        line-height: 30px;
+    }
+    .second-text {
+        padding-left: 150px;
+        padding-top: 100px;
+        width: 300px;
+    }
+    .icon-section-third {
+        padding: 0 10px;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1400px) {
+    .text-bar {
+        width: 650px;
+    }
+}
